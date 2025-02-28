@@ -22,7 +22,7 @@ export default function MainPage() {
                   {item.title}
                 </Link>
                 {item.dropdown && (
-                  <ul className="absolute left-0 mt-2 bg-white text-gray-800 shadow-xl rounded-lg hidden group-hover:block w-48 border-t-4 border-indigo-500 overflow-hidden z-50">
+                  <ul className="absolute -left-12 mt-2 bg-white text-gray-800 shadow-xl rounded-lg hidden group-hover:block w-48 border-t-4 border-indigo-500 overflow-hidden z-50">
                     {item.dropdown.map((subItem, subIndex) => (
                       <li key={subIndex} className="hover:bg-indigo-50">
                         <Link
